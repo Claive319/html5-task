@@ -1,0 +1,40 @@
+nav > ul > li{
+    display: inline;
+    padding: 0 1rem ;
+    margin-left: 50px;
+}
+nav li > a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: blue;
+    /* border: 0.3rem solid tomato; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-image: url('../images/sarah-dorweiler-QeVmJxZOv3k-unsplash.jpg'); */
+    background-color: purple;
+    border-radius: 5px;
+    font-family: sans-serif;
+
+}
+nav li > a:hover{
+    box-shadow: 5px 5px 5px purple;
+    height: 5%;
+    color: red;
+    background-color: aquamarine;
+    border: 5px solid red;
+    padding: 5px;
+}
+footer{
+    text-align: center;
+    margin-top: 90px;
+}
+.hero{
+    margin: 0px;
+    padding: 0px;
+    background-image: url('../images/sarah-dorweiler-QeVmJxZOv3k-unsplash.jpg');
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
